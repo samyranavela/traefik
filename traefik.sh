@@ -1,6 +1,8 @@
 #!/bin/sh
 #set -ex
 
+export VERSION=1.1.2
+
 # The path of the docker compose file
 compose="$HOME/.traefik/docker-compose.yml"
 

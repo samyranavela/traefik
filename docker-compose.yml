@@ -2,7 +2,7 @@ version: "2"
 
 services:
   traefik:
-    image: traefik:1.1.2
+    image: traefik:$VERSION
     container_name: traefik
     hostname: traefik
     volumes:
